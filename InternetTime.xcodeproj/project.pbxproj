@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671BDBDD1F4141D400F6460C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671BDBDC1F4141D400F6460C /* main.m */; };
+		671BDBE01F4141D400F6460C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671BDBDF1F4141D400F6460C /* AppDelegate.m */; };
+		671BDBE31F4141D400F6460C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671BDBE21F4141D400F6460C /* ViewController.m */; };
+		671BDBE61F4141D400F6460C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671BDBE41F4141D400F6460C /* Main.storyboard */; };
+		671BDBE81F4141D400F6460C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671BDBE71F4141D400F6460C /* Assets.xcassets */; };
+		671BDBEB1F4141D400F6460C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671BDBE91F4141D400F6460C /* LaunchScreen.storyboard */; };
+		671BDBF81F41459700F6460C /* NSDate+InternetDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671BDBF71F41459700F6460C /* NSDate+InternetDate.m */; };
+		671BDC011F4195FB00F6460C /* GalenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671BDC001F4195FB00F6460C /* GalenViewController.m */; };
+		673585211F45659F00DEE0BA /* LOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 673585201F45659F00DEE0BA /* LOL.m */; };
+		673585241F45664400DEE0BA /* SUMMONER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 673585221F45664400DEE0BA /* SUMMONER.xcdatamodeld */; };
+		6787634A1F455C3600D2AEBC /* SUMMONER+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 678763471F455C3600D2AEBC /* SUMMONER+CoreDataClass.m */; };
+		6787634B1F455C3600D2AEBC /* SUMMONER+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 678763491F455C3600D2AEBC /* SUMMONER+CoreDataProperties.m */; };
+		F5A4A840E65F524488D5FC23 /* libPods-InternetTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D77F4204AADFF0B7C8FDD12E /* libPods-InternetTime.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F9D5075537C013F73AA4496 /* Pods-InternetTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InternetTime/Pods-InternetTime.debug.xcconfig"; sourceTree = "<group>"; };
+		671BDBD81F4141D400F6460C /* InternetTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		671BDBDC1F4141D400F6460C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671BDBDE1F4141D400F6460C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		671BDBDF1F4141D400F6460C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		671BDBE11F4141D400F6460C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		671BDBE21F4141D400F6460C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		671BDBE51F4141D400F6460C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		671BDBE71F4141D400F6460C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		671BDBEA1F4141D400F6460C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		671BDBEC1F4141D400F6460C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671BDBF61F41459700F6460C /* NSDate+InternetDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDate.h"; sourceTree = "<group>"; };
+		671BDBF71F41459700F6460C /* NSDate+InternetDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDate.m"; sourceTree = "<group>"; };
+		671BDBFF1F4195FB00F6460C /* GalenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalenViewController.h; sourceTree = "<group>"; };
+		671BDC001F4195FB00F6460C /* GalenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalenViewController.m; sourceTree = "<group>"; };
+		6735851F1F45659F00DEE0BA /* LOL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOL.h; sourceTree = "<group>"; };
+		673585201F45659F00DEE0BA /* LOL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOL.m; sourceTree = "<group>"; };
+		673585231F45664400DEE0BA /* SUMMONER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SUMMONER.xcdatamodel; sourceTree = "<group>"; };
+		678763461F455C3600D2AEBC /* SUMMONER+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SUMMONER+CoreDataClass.h"; sourceTree = "<group>"; };
+		678763471F455C3600D2AEBC /* SUMMONER+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SUMMONER+CoreDataClass.m"; sourceTree = "<group>"; };
+		678763481F455C3600D2AEBC /* SUMMONER+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SUMMONER+CoreDataProperties.h"; sourceTree = "<group>"; };
+		678763491F455C3600D2AEBC /* SUMMONER+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SUMMONER+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AEF2216C9F156FD426A08785 /* Pods-InternetTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-InternetTime/Pods-InternetTime.release.xcconfig"; sourceTree = "<group>"; };
+		D77F4204AADFF0B7C8FDD12E /* libPods-InternetTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InternetTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671BDBD51F4141D400F6460C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4A840E65F524488D5FC23 /* libPods-InternetTime.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2445725DA8D47C700119AE47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77F4204AADFF0B7C8FDD12E /* libPods-InternetTime.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		671BDBCF1F4141D300F6460C = {
+			isa = PBXGroup;
+			children = (
+				671BDBF21F41454600F6460C /* Classes */,
+				671BDBDA1F4141D400F6460C /* InternetTime */,
+				671BDBD91F4141D400F6460C /* Products */,
+				B6246F25DE1389F920081A36 /* Pods */,
+				2445725DA8D47C700119AE47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		671BDBD91F4141D400F6460C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				671BDBD81F4141D400F6460C /* InternetTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		671BDBDA1F4141D400F6460C /* InternetTime */ = {
+			isa = PBXGroup;
+			children = (
+				678763461F455C3600D2AEBC /* SUMMONER+CoreDataClass.h */,
+				678763471F455C3600D2AEBC /* SUMMONER+CoreDataClass.m */,
+				678763481F455C3600D2AEBC /* SUMMONER+CoreDataProperties.h */,
+				678763491F455C3600D2AEBC /* SUMMONER+CoreDataProperties.m */,
+				671BDBDE1F4141D400F6460C /* AppDelegate.h */,
+				671BDBDF1F4141D400F6460C /* AppDelegate.m */,
+				671BDBE11F4141D400F6460C /* ViewController.h */,
+				671BDBE21F4141D400F6460C /* ViewController.m */,
+				671BDBFF1F4195FB00F6460C /* GalenViewController.h */,
+				671BDC001F4195FB00F6460C /* GalenViewController.m */,
+				673585221F45664400DEE0BA /* SUMMONER.xcdatamodeld */,
+				6735851F1F45659F00DEE0BA /* LOL.h */,
+				673585201F45659F00DEE0BA /* LOL.m */,
+				671BDBE41F4141D400F6460C /* Main.storyboard */,
+				671BDBE71F4141D400F6460C /* Assets.xcassets */,
+				671BDBE91F4141D400F6460C /* LaunchScreen.storyboard */,
+				671BDBEC1F4141D400F6460C /* Info.plist */,
+				671BDBDB1F4141D400F6460C /* Supporting Files */,
+			);
+			path = InternetTime;
+			sourceTree = "<group>";
+		};
+		671BDBDB1F4141D400F6460C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				671BDBDC1F4141D400F6460C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		671BDBF21F41454600F6460C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				671BDBF61F41459700F6460C /* NSDate+InternetDate.h */,
+				671BDBF71F41459700F6460C /* NSDate+InternetDate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B6246F25DE1389F920081A36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F9D5075537C013F73AA4496 /* Pods-InternetTime.debug.xcconfig */,
+				AEF2216C9F156FD426A08785 /* Pods-InternetTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671BDBD71F4141D400F6460C /* InternetTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671BDBEF1F4141D400F6460C /* Build configuration list for PBXNativeTarget "InternetTime" */;
+			buildPhases = (
+				0FD80D674776F94C71699358 /* [CP] Check Pods Manifest.lock */,
+				671BDBD41F4141D400F6460C /* Sources */,
+				671BDBD51F4141D400F6460C /* Frameworks */,
+				671BDBD61F4141D400F6460C /* Resources */,
+				80AD7DE58B6DC40031109D11 /* [CP] Embed Pods Frameworks */,
+				BF9D74636B9DF40B0ACA91DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternetTime;
+			productName = InternetTime;
+			productReference = 671BDBD81F4141D400F6460C /* InternetTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671BDBD01F4141D300F6460C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MrXir;
+				TargetAttributes = {
+					671BDBD71F4141D400F6460C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4HXKSPK349;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 671BDBD31F4141D300F6460C /* Build configuration list for PBXProject "InternetTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 671BDBCF1F4141D300F6460C;
+			productRefGroup = 671BDBD91F4141D400F6460C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671BDBD71F4141D400F6460C /* InternetTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671BDBD61F4141D400F6460C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671BDBEB1F4141D400F6460C /* LaunchScreen.storyboard in Resources */,
+				671BDBE81F4141D400F6460C /* Assets.xcassets in Resources */,
+				671BDBE61F4141D400F6460C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD80D674776F94C71699358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80AD7DE58B6DC40031109D11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InternetTime/Pods-InternetTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9D74636B9DF40B0ACA91DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InternetTime/Pods-InternetTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671BDBD41F4141D400F6460C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673585241F45664400DEE0BA /* SUMMONER.xcdatamodeld in Sources */,
+				671BDBE31F4141D400F6460C /* ViewController.m in Sources */,
+				671BDC011F4195FB00F6460C /* GalenViewController.m in Sources */,
+				671BDBF81F41459700F6460C /* NSDate+InternetDate.m in Sources */,
+				6787634B1F455C3600D2AEBC /* SUMMONER+CoreDataProperties.m in Sources */,
+				6787634A1F455C3600D2AEBC /* SUMMONER+CoreDataClass.m in Sources */,
+				671BDBE01F4141D400F6460C /* AppDelegate.m in Sources */,
+				671BDBDD1F4141D400F6460C /* main.m in Sources */,
+				673585211F45659F00DEE0BA /* LOL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		671BDBE41F4141D400F6460C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671BDBE51F4141D400F6460C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		671BDBE91F4141D400F6460C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671BDBEA1F4141D400F6460C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		671BDBED1F4141D400F6460C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		671BDBEE1F4141D400F6460C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		671BDBF01F4141D400F6460C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9D5075537C013F73AA4496 /* Pods-InternetTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4HXKSPK349;
+				INFOPLIST_FILE = InternetTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrxir.InternetTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		671BDBF11F4141D400F6460C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF2216C9F156FD426A08785 /* Pods-InternetTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4HXKSPK349;
+				INFOPLIST_FILE = InternetTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrxir.InternetTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671BDBD31F4141D300F6460C /* Build configuration list for PBXProject "InternetTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671BDBED1F4141D400F6460C /* Debug */,
+				671BDBEE1F4141D400F6460C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671BDBEF1F4141D400F6460C /* Build configuration list for PBXNativeTarget "InternetTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671BDBF01F4141D400F6460C /* Debug */,
+				671BDBF11F4141D400F6460C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		673585221F45664400DEE0BA /* SUMMONER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				673585231F45664400DEE0BA /* SUMMONER.xcdatamodel */,
+			);
+			currentVersion = 673585231F45664400DEE0BA /* SUMMONER.xcdatamodel */;
+			path = SUMMONER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 671BDBD01F4141D300F6460C /* Project object */;
+}

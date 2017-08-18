@@ -1,0 +1,40 @@
+PODS:
+  - MRBaseController (1.0)
+  - MRCoreData (1.0.0)
+  - MRFramework (1.0)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - MRBaseController (from `https://github.com/mrxir/MRBaseController.git`)
+  - MRCoreData (from `https://github.com/mrxir/MRCoreData.git`)
+  - MRFramework (from `https://github.com/mrxir/MRFramework.git`)
+  - Toast
+
+EXTERNAL SOURCES:
+  MRBaseController:
+    :git: https://github.com/mrxir/MRBaseController.git
+  MRCoreData:
+    :git: https://github.com/mrxir/MRCoreData.git
+  MRFramework:
+    :git: https://github.com/mrxir/MRFramework.git
+
+CHECKOUT OPTIONS:
+  MRBaseController:
+    :commit: d963285409c0426da4f73a9b2cbb4fbbe1afca74
+    :git: https://github.com/mrxir/MRBaseController.git
+  MRCoreData:
+    :commit: 7bfdf137472875a1739da7ff1f3b2b6e734082bc
+    :git: https://github.com/mrxir/MRCoreData.git
+  MRFramework:
+    :commit: 09f33222508ac80859d7ccf90c28635e7dc6c11d
+    :git: https://github.com/mrxir/MRFramework.git
+
+SPEC CHECKSUMS:
+  MRBaseController: 4a855ce50dd8be06e26fb7b87d848e37b50dc900
+  MRCoreData: e416e17eb69c75ec4427a8f53493a72d419dd6d8
+  MRFramework: d6189fcb55d766c59251fbbabfb68676993e427a
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: a3c6a6a1f9f6631b213dea01b70588af56c620c6
+
+COCOAPODS: 1.2.1

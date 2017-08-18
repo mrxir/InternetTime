@@ -1,0 +1,1032 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BA08B0713DB0040D114BD00C78C4B0 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F82D139A801E57A017D8B74AAC4B5E /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0549CB4F96C6EACBB2BAB41F49357AA9 /* MRCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C6253EB0F77CFCDABC9BDCE2EBE61 /* MRCoreData.m */; };
+		09537904430CAE8591798B0B543E5409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		0B59F9B57CC69B05BBBA11AF8A00E34A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		0CA07528044E56EAAAD3A89819B1FEAB /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D036AEBD87A1957D34EC3238B17162 /* NSString+Extension.m */; };
+		1157107297FB7DC2F19243AAD8A0626D /* UINavigationBar+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AAA11FE8C9D87E9A38CBA5A7BA4159B /* UINavigationBar+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19C8E7989A27D312B35B166830CF9959 /* MRCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17444930AB97CE7AB8B42FB779F744 /* MRCoreData-dummy.m */; };
+		23C5384D59248D45DE01C21C245B1244 /* UIStoryboard+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9594DE33B118FEE89803B8822329446 /* UIStoryboard+Extension.m */; };
+		29DB76DF842BB86B6640A00BA1EE2467 /* MRBaseTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DB10CD471B5747518428B0BAEFDC6A /* MRBaseTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D63DFBC502809536B556578A28EDBF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		4B88769B20AB782C20CC25F06AF9A7C1 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 754A4CF9C73805A2F1FFD782312DCD54 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5385578E3479DEB76016F146106DF1AA /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F266ECCBA543C0B00C9902A2951501F /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		614CE872A6A686DB0D6A4D84A52F6567 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB715991CCF2A526C85D0984269E15FC /* UIImage+Extension.m */; };
+		62CBAFCEDCABDBFB67A6CC4CC0C96202 /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3BDA2C2D7D3B94B0FEE7EDC1011B03 /* UIControl+Extension.m */; };
+		6667CE2843E2C6588E8A2D80A8FC7A66 /* NSURL+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D317E9B24970F732AE89382573716B /* NSURL+Extension.m */; };
+		6905A38AAA80FDA5E7A5F5EED00B4562 /* MRBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773CE2844744D3250DCB298756E85EC6 /* MRBaseController.m */; };
+		6DA0EF240368171D84C6B986C023FB6C /* Pods-InternetTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E023B081F484CD6E99FF690B030A85 /* Pods-InternetTime-dummy.m */; };
+		6F4D9CF1613C3CD718093B75088410BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		77A1DE01A14C828644E416C3516506B9 /* UIStoryboard+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DFE1EC60B1DD936C63459CEF1FFB3C /* UIStoryboard+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E726FC38E0E6EBC20AC4BAB028365BF /* MRCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4194B7CD9B5ADA177A963005C42CC7 /* MRCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8572A09A7E926BDBEFD5402320399BC4 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 168BAFE350EF4B55E3A395502C1A02A5 /* NSDictionary+Extension.m */; };
+		8E30A283A5F0B869774765F6AF9131C6 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA2957383FFCA1BC9A96A8C3268CFF8 /* UIView+Extension.m */; };
+		9384B2DE80C67EF55AD63826E5B40A49 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E793969638076D84BD6D2DDDD64B41 /* Toast-dummy.m */; };
+		96B0FEC9FDE2597972185646318210B4 /* MRBaseController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF6D070A9E739440F3B4B0B496D05E /* MRBaseController-dummy.m */; };
+		9A2969AE7DBEF5394766E34AB096E309 /* NSURL+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E16DA16AE6DE8397329F062150D1122C /* NSURL+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B2D9BC608FD34AD64E8BDA4F2B542F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		A265E2EB3F8155BCEDE9607FE19946D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		A4B478D597F1704DF477321DB1ACE1B5 /* MRBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0990E3141E38EA6004ADCA79FE137A /* MRBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA500CDACE2D0A496FCF9F998B851574 /* NSDictionary+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0168320793C322C0FF9763A1CAF25CEF /* NSDictionary+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B018B475613E8AC1B28B98C3F3A46AA9 /* MRUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E772581084F2F69FB6BF4269D3F9AC3D /* MRUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3FB688C85A21DDB1ADB2F3FF9DFE434 /* MRBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F77EAE3FCABED3F52D6FB704E469179 /* MRBaseTabBarController.m */; };
+		B95083C5DA650D98D7F52F69D26DC6C4 /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7824FF8D8A5FF29148B893800098351F /* UIApplication+Extension.m */; };
+		BAC9F9236678A3BBD0DDEE549A9E369A /* UIApplication+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BB2F2DA1311167EC6D12517C271D1B /* UIApplication+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF6D5D1B11374574BF2EE60655D9E0AE /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6828A02F675661448C4F81AD8210AF62 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE847DCCD60CAFBAFE7F5172D693F771 /* MRFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 322EA55A60B0BFB1E926E145A83CF511 /* MRFramework-dummy.m */; };
+		D1D177205FEC5D257CB97A307342B697 /* MRBaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BC93A8193031A5D4D3A8D408F8F97D /* MRBaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3ECD8EB7BC24DF02DB97053E5CCABF9 /* MRBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 632588817BE37AEE92360A3B56B61006 /* MRBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90FB3E3B547478FF89C108E333CE32B /* NSJSONSerialization+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ABF7F86677A33069EE879C4D90BD194 /* NSJSONSerialization+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA93B50082B2DF80ADFBA8783F77A35A /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E1DCDA9C6C670AEF8B08F6985D004 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DC3B5F13B956E71E90914230E2236D29 /* MRBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E36C9324E3F937E4F22422F192481 /* MRBaseNavigationController.m */; };
+		DDCCFA2C965D80EA4F2E225C2006FF8C /* UINavigationBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 623990773347E42B8ACF686D9EC16083 /* UINavigationBar+Extension.m */; };
+		DED99CE6F42AE51F5406B31A5034E2FA /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D072450BC073B192D89D7B058BFA12C2 /* NSObject+Extension.m */; };
+		E05500C6DCE79AC517641B40CC6B2D01 /* MRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C44F0EEA35DEA98FBEE607F0E858A1 /* MRBaseViewController.m */; };
+		E9BC9B17C771D5811C904043DB734AFC /* NSObject+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A2CA54E10952200399971A3758300B /* NSObject+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F74B1A7E75FAC25EA7D7785D80BB7C50 /* UIControl+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5179CE7145D3A82CF93A3B9ABCE978 /* UIControl+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE3866DD8FB68DF433C32847F2D62D1F /* NSJSONSerialization+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C213E97831952CE521F8B9F8C6D765 /* NSJSONSerialization+Extension.m */; };
+		FFF194C71AA33E8AC8B20B0BBB663F6E /* MRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3439FD4D12E12BF81D1A802D93BC5598 /* MRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06F40D2369F44F34236D555963DD7AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1271E7318B363CBD89C9FDAA356F4C;
+			remoteInfo = MRFramework;
+		};
+		294EF48D8F911D155F0A5B70ADA7644C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E767981506319A24243C20B198FD8ED;
+			remoteInfo = MRBaseController;
+		};
+		2DA280CD3FDCB569FE0F8917D3096B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B664EBB20F5CB5CCBA61E75E158A63;
+			remoteInfo = Toast;
+		};
+		F6572ED72ED0347E7E063CC82888017F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBF872A59B5C551821A8364C94612B2;
+			remoteInfo = MRCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00518B3E2F754C08D9AD718D748A7063 /* MRBaseController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRBaseController-prefix.pch"; sourceTree = "<group>"; };
+		0168320793C322C0FF9763A1CAF25CEF /* NSDictionary+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Extension.h"; path = "Classes/Foundation-Extension/NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		15F82D139A801E57A017D8B74AAC4B5E /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		168BAFE350EF4B55E3A395502C1A02A5 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Extension.m"; path = "Classes/Foundation-Extension/NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		19550469CDED6D3463835BB5B3381C26 /* libMRBaseController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMRBaseController.a; path = libMRBaseController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D036AEBD87A1957D34EC3238B17162 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "Classes/Foundation-Extension/NSString+Extension.m"; sourceTree = "<group>"; };
+		2F4194B7CD9B5ADA177A963005C42CC7 /* MRCoreData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRCoreData.h; path = Classes/MRCoreData.h; sourceTree = "<group>"; };
+		322EA55A60B0BFB1E926E145A83CF511 /* MRFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRFramework-dummy.m"; sourceTree = "<group>"; };
+		3439FD4D12E12BF81D1A802D93BC5598 /* MRFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRFoundation.h; path = "Classes/Foundation-Extension/MRFoundation.h"; sourceTree = "<group>"; };
+		3C726D4ACB7E499B6B2CA0D21EED8A89 /* Pods-InternetTime-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InternetTime-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45BC93A8193031A5D4D3A8D408F8F97D /* MRBaseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRBaseController.h; path = Classes/MRBaseController.h; sourceTree = "<group>"; };
+		4ABF7F86677A33069EE879C4D90BD194 /* NSJSONSerialization+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Extension.h"; path = "Classes/Foundation-Extension/NSJSONSerialization+Extension.h"; sourceTree = "<group>"; };
+		4D5179CE7145D3A82CF93A3B9ABCE978 /* UIControl+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Extension.h"; path = "Classes/UIKit-Extension/UIControl+Extension.h"; sourceTree = "<group>"; };
+		52C44F0EEA35DEA98FBEE607F0E858A1 /* MRBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRBaseViewController.m; path = Classes/MRBaseViewController.m; sourceTree = "<group>"; };
+		54DFE1EC60B1DD936C63459CEF1FFB3C /* UIStoryboard+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStoryboard+Extension.h"; path = "Classes/UIKit-Extension/UIStoryboard+Extension.h"; sourceTree = "<group>"; };
+		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5F8CB99BBC47DBA7F00264D2B5CD3426 /* libMRFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMRFramework.a; path = libMRFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		623990773347E42B8ACF686D9EC16083 /* UINavigationBar+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+Extension.m"; path = "Classes/UIKit-Extension/UINavigationBar+Extension.m"; sourceTree = "<group>"; };
+		632588817BE37AEE92360A3B56B61006 /* MRBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRBaseNavigationController.h; path = Classes/MRBaseNavigationController.h; sourceTree = "<group>"; };
+		63A2CA54E10952200399971A3758300B /* NSObject+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Extension.h"; path = "Classes/Foundation-Extension/NSObject+Extension.h"; sourceTree = "<group>"; };
+		6828A02F675661448C4F81AD8210AF62 /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "Classes/UIKit-Extension/UIImage+Extension.h"; sourceTree = "<group>"; };
+		6AAA11FE8C9D87E9A38CBA5A7BA4159B /* UINavigationBar+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+Extension.h"; path = "Classes/UIKit-Extension/UINavigationBar+Extension.h"; sourceTree = "<group>"; };
+		754A4CF9C73805A2F1FFD782312DCD54 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "Classes/Foundation-Extension/NSString+Extension.h"; sourceTree = "<group>"; };
+		75D317E9B24970F732AE89382573716B /* NSURL+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Extension.m"; path = "Classes/Foundation-Extension/NSURL+Extension.m"; sourceTree = "<group>"; };
+		75DB10CD471B5747518428B0BAEFDC6A /* MRBaseTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRBaseTabBarController.h; path = Classes/MRBaseTabBarController.h; sourceTree = "<group>"; };
+		773CE2844744D3250DCB298756E85EC6 /* MRBaseController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRBaseController.m; path = Classes/MRBaseController.m; sourceTree = "<group>"; };
+		7824FF8D8A5FF29148B893800098351F /* UIApplication+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Extension.m"; path = "Classes/UIKit-Extension/UIApplication+Extension.m"; sourceTree = "<group>"; };
+		7BF08602CCDDBABA9914D4BFF0CE0A72 /* Pods-InternetTime-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InternetTime-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F266ECCBA543C0B00C9902A2951501F /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "Classes/UIKit-Extension/UIView+Extension.h"; sourceTree = "<group>"; };
+		811C6253EB0F77CFCDABC9BDCE2EBE61 /* MRCoreData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRCoreData.m; path = Classes/MRCoreData.m; sourceTree = "<group>"; };
+		8C3BDA2C2D7D3B94B0FEE7EDC1011B03 /* UIControl+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Extension.m"; path = "Classes/UIKit-Extension/UIControl+Extension.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A164392AA4027361C6490A9D114E11 /* MRFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRFramework.xcconfig; sourceTree = "<group>"; };
+		9F77EAE3FCABED3F52D6FB704E469179 /* MRBaseTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRBaseTabBarController.m; path = Classes/MRBaseTabBarController.m; sourceTree = "<group>"; };
+		A1B9BADBE594830D433D331FDEE1C6BA /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libToast.a; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD92244DB784C28EC6D3E57A478A3E4 /* MRFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRFramework-prefix.pch"; sourceTree = "<group>"; };
+		AC0B68052A0D6B4816E59FEEAF98A909 /* libMRCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMRCoreData.a; path = libMRCoreData.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8CAAEE8FF769E31B4A6E859F70C730 /* MRCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRCoreData.xcconfig; sourceTree = "<group>"; };
+		B4E793969638076D84BD6D2DDDD64B41 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		B960BE12219DC592C75B13107C8E10E0 /* libPods-InternetTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-InternetTime.a"; path = "libPods-InternetTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA2957383FFCA1BC9A96A8C3268CFF8 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "Classes/UIKit-Extension/UIView+Extension.m"; sourceTree = "<group>"; };
+		C0E023B081F484CD6E99FF690B030A85 /* Pods-InternetTime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InternetTime-dummy.m"; sourceTree = "<group>"; };
+		C1C213E97831952CE521F8B9F8C6D765 /* NSJSONSerialization+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+Extension.m"; path = "Classes/Foundation-Extension/NSJSONSerialization+Extension.m"; sourceTree = "<group>"; };
+		C3BB2F2DA1311167EC6D12517C271D1B /* UIApplication+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Extension.h"; path = "Classes/UIKit-Extension/UIApplication+Extension.h"; sourceTree = "<group>"; };
+		C727C60B50B7ED091BD77899CD817DEC /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		C9594DE33B118FEE89803B8822329446 /* UIStoryboard+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+Extension.m"; path = "Classes/UIKit-Extension/UIStoryboard+Extension.m"; sourceTree = "<group>"; };
+		CB715991CCF2A526C85D0984269E15FC /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "Classes/UIKit-Extension/UIImage+Extension.m"; sourceTree = "<group>"; };
+		CB7E1DCDA9C6C670AEF8B08F6985D004 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		CBDBEC345319F1EC547722300CDE29F7 /* Pods-InternetTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InternetTime.debug.xcconfig"; sourceTree = "<group>"; };
+		CF1B69E646638C87A6BB52C41A4E51C6 /* Pods-InternetTime-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InternetTime-resources.sh"; sourceTree = "<group>"; };
+		D072450BC073B192D89D7B058BFA12C2 /* NSObject+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Extension.m"; path = "Classes/Foundation-Extension/NSObject+Extension.m"; sourceTree = "<group>"; };
+		D1FFF10EE689919788E5B8EF007EDD39 /* Pods-InternetTime-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InternetTime-frameworks.sh"; sourceTree = "<group>"; };
+		DA17444930AB97CE7AB8B42FB779F744 /* MRCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRCoreData-dummy.m"; sourceTree = "<group>"; };
+		DB6E36C9324E3F937E4F22422F192481 /* MRBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRBaseNavigationController.m; path = Classes/MRBaseNavigationController.m; sourceTree = "<group>"; };
+		DBCC8721D5F7C5F3AA8635F8934A6F33 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		E16DA16AE6DE8397329F062150D1122C /* NSURL+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Extension.h"; path = "Classes/Foundation-Extension/NSURL+Extension.h"; sourceTree = "<group>"; };
+		E6A0DE38807AC4AA47C7AD097E821E46 /* MRCoreData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCoreData-prefix.pch"; sourceTree = "<group>"; };
+		E772581084F2F69FB6BF4269D3F9AC3D /* MRUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRUIKit.h; path = "Classes/UIKit-Extension/MRUIKit.h"; sourceTree = "<group>"; };
+		F27672055FAC37B35F4BA8CBC69236E3 /* Pods-InternetTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InternetTime.release.xcconfig"; sourceTree = "<group>"; };
+		FB0990E3141E38EA6004ADCA79FE137A /* MRBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRBaseViewController.h; path = Classes/MRBaseViewController.h; sourceTree = "<group>"; };
+		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FCCED75DAA8EFF43A027E9F8684E17AE /* MRBaseController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRBaseController.xcconfig; sourceTree = "<group>"; };
+		FFEF6D070A9E739440F3B4B0B496D05E /* MRBaseController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRBaseController-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214D8F8018A644BEC3DA5F380394A51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A265E2EB3F8155BCEDE9607FE19946D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F77B028F4CE8806FB3076483C92CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B59F9B57CC69B05BBBA11AF8A00E34A /* Foundation.framework in Frameworks */,
+				37D63DFBC502809536B556578A28EDBF /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744887EFF7C80CFD1F3F3FDA18A9CBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B2D9BC608FD34AD64E8BDA4F2B542F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA525E4C9874AE6609415B4F8B219674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09537904430CAE8591798B0B543E5409 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6419BCC517D93163F5AA368CF7A6DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4D9CF1613C3CD718093B75088410BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD692F6D0A8C30028249859A7BA4DA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCCED75DAA8EFF43A027E9F8684E17AE /* MRBaseController.xcconfig */,
+				FFEF6D070A9E739440F3B4B0B496D05E /* MRBaseController-dummy.m */,
+				00518B3E2F754C08D9AD718D748A7063 /* MRBaseController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MRBaseController";
+			sourceTree = "<group>";
+		};
+		2D08FF44E6CB46BDD528E2B52740F07E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C727C60B50B7ED091BD77899CD817DEC /* Toast.xcconfig */,
+				B4E793969638076D84BD6D2DDDD64B41 /* Toast-dummy.m */,
+				DBCC8721D5F7C5F3AA8635F8934A6F33 /* Toast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		305E9E3E0B8B4FBE7B621AC438A2FAF3 /* MRCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2F4194B7CD9B5ADA177A963005C42CC7 /* MRCoreData.h */,
+				811C6253EB0F77CFCDABC9BDCE2EBE61 /* MRCoreData.m */,
+				BB580D1B8C4B4553CE8B22194C7DD8B1 /* Support Files */,
+			);
+			name = MRCoreData;
+			path = MRCoreData;
+			sourceTree = "<group>";
+		};
+		38E487314BCC2BFA19939E8BD05B0698 /* Pods-InternetTime */ = {
+			isa = PBXGroup;
+			children = (
+				3C726D4ACB7E499B6B2CA0D21EED8A89 /* Pods-InternetTime-acknowledgements.markdown */,
+				7BF08602CCDDBABA9914D4BFF0CE0A72 /* Pods-InternetTime-acknowledgements.plist */,
+				C0E023B081F484CD6E99FF690B030A85 /* Pods-InternetTime-dummy.m */,
+				D1FFF10EE689919788E5B8EF007EDD39 /* Pods-InternetTime-frameworks.sh */,
+				CF1B69E646638C87A6BB52C41A4E51C6 /* Pods-InternetTime-resources.sh */,
+				CBDBEC345319F1EC547722300CDE29F7 /* Pods-InternetTime.debug.xcconfig */,
+				F27672055FAC37B35F4BA8CBC69236E3 /* Pods-InternetTime.release.xcconfig */,
+			);
+			name = "Pods-InternetTime";
+			path = "Target Support Files/Pods-InternetTime";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B1ACBD8A3DA1139A32A6D9DC39C2D4 /* MRBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				45BC93A8193031A5D4D3A8D408F8F97D /* MRBaseController.h */,
+				773CE2844744D3250DCB298756E85EC6 /* MRBaseController.m */,
+				632588817BE37AEE92360A3B56B61006 /* MRBaseNavigationController.h */,
+				DB6E36C9324E3F937E4F22422F192481 /* MRBaseNavigationController.m */,
+				75DB10CD471B5747518428B0BAEFDC6A /* MRBaseTabBarController.h */,
+				9F77EAE3FCABED3F52D6FB704E469179 /* MRBaseTabBarController.m */,
+				FB0990E3141E38EA6004ADCA79FE137A /* MRBaseViewController.h */,
+				52C44F0EEA35DEA98FBEE607F0E858A1 /* MRBaseViewController.m */,
+				0DD692F6D0A8C30028249859A7BA4DA0 /* Support Files */,
+			);
+			name = MRBaseController;
+			path = MRBaseController;
+			sourceTree = "<group>";
+		};
+		51FABEA5E65E417A8E67F2351F8DBFF3 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				15F82D139A801E57A017D8B74AAC4B5E /* UIView+Toast.h */,
+				CB7E1DCDA9C6C670AEF8B08F6985D004 /* UIView+Toast.m */,
+				2D08FF44E6CB46BDD528E2B52740F07E /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		62309F5253F1697284411076790049FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19550469CDED6D3463835BB5B3381C26 /* libMRBaseController.a */,
+				AC0B68052A0D6B4816E59FEEAF98A909 /* libMRCoreData.a */,
+				5F8CB99BBC47DBA7F00264D2B5CD3426 /* libMRFramework.a */,
+				B960BE12219DC592C75B13107C8E10E0 /* libPods-InternetTime.a */,
+				A1B9BADBE594830D433D331FDEE1C6BA /* libToast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69821A017CA16A9D0D9258C5891BE71A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97A164392AA4027361C6490A9D114E11 /* MRFramework.xcconfig */,
+				322EA55A60B0BFB1E926E145A83CF511 /* MRFramework-dummy.m */,
+				AAD92244DB784C28EC6D3E57A478A3E4 /* MRFramework-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MRFramework";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D0E0254DBABC212B6DED395B789EABC1 /* Pods */,
+				62309F5253F1697284411076790049FB /* Products */,
+				B8FC07130D3FD44156E45DDE2BF243A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
+				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AAC50A97C768D860A8B112EF07F28422 /* MRFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3439FD4D12E12BF81D1A802D93BC5598 /* MRFoundation.h */,
+				E772581084F2F69FB6BF4269D3F9AC3D /* MRUIKit.h */,
+				0168320793C322C0FF9763A1CAF25CEF /* NSDictionary+Extension.h */,
+				168BAFE350EF4B55E3A395502C1A02A5 /* NSDictionary+Extension.m */,
+				4ABF7F86677A33069EE879C4D90BD194 /* NSJSONSerialization+Extension.h */,
+				C1C213E97831952CE521F8B9F8C6D765 /* NSJSONSerialization+Extension.m */,
+				63A2CA54E10952200399971A3758300B /* NSObject+Extension.h */,
+				D072450BC073B192D89D7B058BFA12C2 /* NSObject+Extension.m */,
+				754A4CF9C73805A2F1FFD782312DCD54 /* NSString+Extension.h */,
+				27D036AEBD87A1957D34EC3238B17162 /* NSString+Extension.m */,
+				E16DA16AE6DE8397329F062150D1122C /* NSURL+Extension.h */,
+				75D317E9B24970F732AE89382573716B /* NSURL+Extension.m */,
+				C3BB2F2DA1311167EC6D12517C271D1B /* UIApplication+Extension.h */,
+				7824FF8D8A5FF29148B893800098351F /* UIApplication+Extension.m */,
+				4D5179CE7145D3A82CF93A3B9ABCE978 /* UIControl+Extension.h */,
+				8C3BDA2C2D7D3B94B0FEE7EDC1011B03 /* UIControl+Extension.m */,
+				6828A02F675661448C4F81AD8210AF62 /* UIImage+Extension.h */,
+				CB715991CCF2A526C85D0984269E15FC /* UIImage+Extension.m */,
+				6AAA11FE8C9D87E9A38CBA5A7BA4159B /* UINavigationBar+Extension.h */,
+				623990773347E42B8ACF686D9EC16083 /* UINavigationBar+Extension.m */,
+				54DFE1EC60B1DD936C63459CEF1FFB3C /* UIStoryboard+Extension.h */,
+				C9594DE33B118FEE89803B8822329446 /* UIStoryboard+Extension.m */,
+				7F266ECCBA543C0B00C9902A2951501F /* UIView+Extension.h */,
+				BAA2957383FFCA1BC9A96A8C3268CFF8 /* UIView+Extension.m */,
+				69821A017CA16A9D0D9258C5891BE71A /* Support Files */,
+			);
+			name = MRFramework;
+			path = MRFramework;
+			sourceTree = "<group>";
+		};
+		B8FC07130D3FD44156E45DDE2BF243A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E487314BCC2BFA19939E8BD05B0698 /* Pods-InternetTime */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB580D1B8C4B4553CE8B22194C7DD8B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE8CAAEE8FF769E31B4A6E859F70C730 /* MRCoreData.xcconfig */,
+				DA17444930AB97CE7AB8B42FB779F744 /* MRCoreData-dummy.m */,
+				E6A0DE38807AC4AA47C7AD097E821E46 /* MRCoreData-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MRCoreData";
+			sourceTree = "<group>";
+		};
+		D0E0254DBABC212B6DED395B789EABC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45B1ACBD8A3DA1139A32A6D9DC39C2D4 /* MRBaseController */,
+				305E9E3E0B8B4FBE7B621AC438A2FAF3 /* MRCoreData */,
+				AAC50A97C768D860A8B112EF07F28422 /* MRFramework */,
+				51FABEA5E65E417A8E67F2351F8DBFF3 /* Toast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55BAD0A04D0E9BB6747D3A5829849CEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF194C71AA33E8AC8B20B0BBB663F6E /* MRFoundation.h in Headers */,
+				B018B475613E8AC1B28B98C3F3A46AA9 /* MRUIKit.h in Headers */,
+				AA500CDACE2D0A496FCF9F998B851574 /* NSDictionary+Extension.h in Headers */,
+				D90FB3E3B547478FF89C108E333CE32B /* NSJSONSerialization+Extension.h in Headers */,
+				E9BC9B17C771D5811C904043DB734AFC /* NSObject+Extension.h in Headers */,
+				4B88769B20AB782C20CC25F06AF9A7C1 /* NSString+Extension.h in Headers */,
+				9A2969AE7DBEF5394766E34AB096E309 /* NSURL+Extension.h in Headers */,
+				BAC9F9236678A3BBD0DDEE549A9E369A /* UIApplication+Extension.h in Headers */,
+				F74B1A7E75FAC25EA7D7785D80BB7C50 /* UIControl+Extension.h in Headers */,
+				BF6D5D1B11374574BF2EE60655D9E0AE /* UIImage+Extension.h in Headers */,
+				1157107297FB7DC2F19243AAD8A0626D /* UINavigationBar+Extension.h in Headers */,
+				77A1DE01A14C828644E416C3516506B9 /* UIStoryboard+Extension.h in Headers */,
+				5385578E3479DEB76016F146106DF1AA /* UIView+Extension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65664E953A6D5C8900C1DB8D86F1BFB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D177205FEC5D257CB97A307342B697 /* MRBaseController.h in Headers */,
+				D3ECD8EB7BC24DF02DB97053E5CCABF9 /* MRBaseNavigationController.h in Headers */,
+				29DB76DF842BB86B6640A00BA1EE2467 /* MRBaseTabBarController.h in Headers */,
+				A4B478D597F1704DF477321DB1ACE1B5 /* MRBaseViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985446785A1303AE2A7C1B81B4A11117 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E726FC38E0E6EBC20AC4BAB028365BF /* MRCoreData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE47E4C968CFCD2E60D6F735EE57C6E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BA08B0713DB0040D114BD00C78C4B0 /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F1271E7318B363CBD89C9FDAA356F4C /* MRFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D73CFB4F0109DDEB24D6A16007DE532 /* Build configuration list for PBXNativeTarget "MRFramework" */;
+			buildPhases = (
+				FE3AB097383B8FE2EE65CFDA9ED278C1 /* Sources */,
+				AA525E4C9874AE6609415B4F8B219674 /* Frameworks */,
+				55BAD0A04D0E9BB6747D3A5829849CEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRFramework;
+			productName = MRFramework;
+			productReference = 5F8CB99BBC47DBA7F00264D2B5CD3426 /* libMRFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76B664EBB20F5CB5CCBA61E75E158A63 /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D86405F21D6DC22FB2EF63BD183259 /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				3B28E8E4AE43F29AE9C0651F9D5218A3 /* Sources */,
+				24F77B028F4CE8806FB3076483C92CED /* Frameworks */,
+				BE47E4C968CFCD2E60D6F735EE57C6E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = A1B9BADBE594830D433D331FDEE1C6BA /* libToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E767981506319A24243C20B198FD8ED /* MRBaseController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E26A723E0861317C226D4AC7E3142F /* Build configuration list for PBXNativeTarget "MRBaseController" */;
+			buildPhases = (
+				B643B707D621DF5D87C13D23DDD3A392 /* Sources */,
+				214D8F8018A644BEC3DA5F380394A51E /* Frameworks */,
+				65664E953A6D5C8900C1DB8D86F1BFB8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRBaseController;
+			productName = MRBaseController;
+			productReference = 19550469CDED6D3463835BB5B3381C26 /* libMRBaseController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8BBF872A59B5C551821A8364C94612B2 /* MRCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB2365F8AA9CAEC95FF6A1022A7C803 /* Build configuration list for PBXNativeTarget "MRCoreData" */;
+			buildPhases = (
+				ED0456E30A06D6C2DE5BA08FB604B37C /* Sources */,
+				744887EFF7C80CFD1F3F3FDA18A9CBDA /* Frameworks */,
+				985446785A1303AE2A7C1B81B4A11117 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRCoreData;
+			productName = MRCoreData;
+			productReference = AC0B68052A0D6B4816E59FEEAF98A909 /* libMRCoreData.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C6F69FFB21F4229A68FC9FDAE0762564 /* Pods-InternetTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75554908E48E1716298A7DA4FA3AF796 /* Build configuration list for PBXNativeTarget "Pods-InternetTime" */;
+			buildPhases = (
+				EB0E22F9081E2A62B87CDFB6C7F08DF1 /* Sources */,
+				E6419BCC517D93163F5AA368CF7A6DDA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995CFD2D2B95B7F9A1E5C1C510116CEB /* PBXTargetDependency */,
+				7BEC59902F6F06FAF1BDB04BEB35AA49 /* PBXTargetDependency */,
+				DC9D53774FEF55A330AADA6DA102B8FC /* PBXTargetDependency */,
+				E21A43F4EA1ADF44314D760A1A036A05 /* PBXTargetDependency */,
+			);
+			name = "Pods-InternetTime";
+			productName = "Pods-InternetTime";
+			productReference = B960BE12219DC592C75B13107C8E10E0 /* libPods-InternetTime.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 62309F5253F1697284411076790049FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E767981506319A24243C20B198FD8ED /* MRBaseController */,
+				8BBF872A59B5C551821A8364C94612B2 /* MRCoreData */,
+				2F1271E7318B363CBD89C9FDAA356F4C /* MRFramework */,
+				C6F69FFB21F4229A68FC9FDAE0762564 /* Pods-InternetTime */,
+				76B664EBB20F5CB5CCBA61E75E158A63 /* Toast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B28E8E4AE43F29AE9C0651F9D5218A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9384B2DE80C67EF55AD63826E5B40A49 /* Toast-dummy.m in Sources */,
+				DA93B50082B2DF80ADFBA8783F77A35A /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B643B707D621DF5D87C13D23DDD3A392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B0FEC9FDE2597972185646318210B4 /* MRBaseController-dummy.m in Sources */,
+				6905A38AAA80FDA5E7A5F5EED00B4562 /* MRBaseController.m in Sources */,
+				DC3B5F13B956E71E90914230E2236D29 /* MRBaseNavigationController.m in Sources */,
+				B3FB688C85A21DDB1ADB2F3FF9DFE434 /* MRBaseTabBarController.m in Sources */,
+				E05500C6DCE79AC517641B40CC6B2D01 /* MRBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E22F9081E2A62B87CDFB6C7F08DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA0EF240368171D84C6B986C023FB6C /* Pods-InternetTime-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0456E30A06D6C2DE5BA08FB604B37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C8E7989A27D312B35B166830CF9959 /* MRCoreData-dummy.m in Sources */,
+				0549CB4F96C6EACBB2BAB41F49357AA9 /* MRCoreData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3AB097383B8FE2EE65CFDA9ED278C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE847DCCD60CAFBAFE7F5172D693F771 /* MRFramework-dummy.m in Sources */,
+				8572A09A7E926BDBEFD5402320399BC4 /* NSDictionary+Extension.m in Sources */,
+				FE3866DD8FB68DF433C32847F2D62D1F /* NSJSONSerialization+Extension.m in Sources */,
+				DED99CE6F42AE51F5406B31A5034E2FA /* NSObject+Extension.m in Sources */,
+				0CA07528044E56EAAAD3A89819B1FEAB /* NSString+Extension.m in Sources */,
+				6667CE2843E2C6588E8A2D80A8FC7A66 /* NSURL+Extension.m in Sources */,
+				B95083C5DA650D98D7F52F69D26DC6C4 /* UIApplication+Extension.m in Sources */,
+				62CBAFCEDCABDBFB67A6CC4CC0C96202 /* UIControl+Extension.m in Sources */,
+				614CE872A6A686DB0D6A4D84A52F6567 /* UIImage+Extension.m in Sources */,
+				DDCCFA2C965D80EA4F2E225C2006FF8C /* UINavigationBar+Extension.m in Sources */,
+				23C5384D59248D45DE01C21C245B1244 /* UIStoryboard+Extension.m in Sources */,
+				8E30A283A5F0B869774765F6AF9131C6 /* UIView+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BEC59902F6F06FAF1BDB04BEB35AA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRCoreData;
+			target = 8BBF872A59B5C551821A8364C94612B2 /* MRCoreData */;
+			targetProxy = F6572ED72ED0347E7E063CC82888017F /* PBXContainerItemProxy */;
+		};
+		995CFD2D2B95B7F9A1E5C1C510116CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRBaseController;
+			target = 7E767981506319A24243C20B198FD8ED /* MRBaseController */;
+			targetProxy = 294EF48D8F911D155F0A5B70ADA7644C /* PBXContainerItemProxy */;
+		};
+		DC9D53774FEF55A330AADA6DA102B8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRFramework;
+			target = 2F1271E7318B363CBD89C9FDAA356F4C /* MRFramework */;
+			targetProxy = 06F40D2369F44F34236D555963DD7AB9 /* PBXContainerItemProxy */;
+		};
+		E21A43F4EA1ADF44314D760A1A036A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = 76B664EBB20F5CB5CCBA61E75E158A63 /* Toast */;
+			targetProxy = 2DA280CD3FDCB569FE0F8917D3096B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C8F2F1D7262E7FBA4BAB75A0A0E8F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A164392AA4027361C6490A9D114E11 /* MRFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRFramework/MRFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F121AB9C8AC10AA2F4437ECFDE6987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C727C60B50B7ED091BD77899CD817DEC /* Toast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E609904F1F9FA3851D65C7174231EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C727C60B50B7ED091BD77899CD817DEC /* Toast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		68F2546EDAEB6FA60B33B326E0E26F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27672055FAC37B35F4BA8CBC69236E3 /* Pods-InternetTime.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		83E833D4D97B56F7DCA7ACE3DE64765B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCED75DAA8EFF43A027E9F8684E17AE /* MRBaseController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRBaseController/MRBaseController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A8CA73E2A852284B2CE7996482C35AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A164392AA4027361C6490A9D114E11 /* MRFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRFramework/MRFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BBE588320C387890120474530037093B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8CAAEE8FF769E31B4A6E859F70C730 /* MRCoreData.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRCoreData/MRCoreData-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8BEDB894A26F25588B13F36A4098897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8CAAEE8FF769E31B4A6E859F70C730 /* MRCoreData.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRCoreData/MRCoreData-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D4B0B75B7143116B56EB5C32CD739EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCED75DAA8EFF43A027E9F8684E17AE /* MRBaseController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRBaseController/MRBaseController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3A42DBC0BD9641446B89C27BFA2B1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDBEC345319F1EC547722300CDE29F7 /* Pods-InternetTime.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D73CFB4F0109DDEB24D6A16007DE532 /* Build configuration list for PBXNativeTarget "MRFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C8F2F1D7262E7FBA4BAB75A0A0E8F8 /* Debug */,
+				A8CA73E2A852284B2CE7996482C35AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB2365F8AA9CAEC95FF6A1022A7C803 /* Build configuration list for PBXNativeTarget "MRCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BEDB894A26F25588B13F36A4098897 /* Debug */,
+				BBE588320C387890120474530037093B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E26A723E0861317C226D4AC7E3142F /* Build configuration list for PBXNativeTarget "MRBaseController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B0B75B7143116B56EB5C32CD739EAC /* Debug */,
+				83E833D4D97B56F7DCA7ACE3DE64765B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75554908E48E1716298A7DA4FA3AF796 /* Build configuration list for PBXNativeTarget "Pods-InternetTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A42DBC0BD9641446B89C27BFA2B1B8 /* Debug */,
+				68F2546EDAEB6FA60B33B326E0E26F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D86405F21D6DC22FB2EF63BD183259 /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E609904F1F9FA3851D65C7174231EFC /* Debug */,
+				48F121AB9C8AC10AA2F4437ECFDE6987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
